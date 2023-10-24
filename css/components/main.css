@@ -1,0 +1,42 @@
+.middle-title {
+  position: absolute;
+  top: 500px;
+  left: 5%;
+  color: #211c16;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+.middle-title h2 {
+  object-position: center;
+}
+
+.cards {
+  margin-top: 580px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.card {
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 15px #afa89b;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #211c16;
+  padding: 10px;
+}
+
+.icon {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+  object-position: center;
+  padding: 50px 0 20px 0;
+}

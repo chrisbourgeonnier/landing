@@ -1,0 +1,49 @@
+.banner {
+  margin: 0 0;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://i.pinimg.com/originals/3c/de/4f/3cde4f4d23f75ba8d518c7181377fbf3.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.container p {
+  color: white;
+  margin-bottom: 80px;
+  font-size: 2rem;
+  text-shadow: #211c16;
+}
+
+.container h1 {
+  color: white;
+  padding: 40px 0 30px 0;
+  font-size: 3rem;
+  text-shadow: #211c16;
+}
+
+.container a {
+  font-size: 1.5rem;
+  background-color: #96a759;
+  color: #211c16;
+  padding: 10px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  transition: 0.5s;
+}
+
+.container a:hover {
+  font-size: 1.5rem;
+  background-color: #211c16;
+  color: #96a759;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
